@@ -1,0 +1,25 @@
+{
+  "name": "django-wagtail-pack",
+  "version": "0.1.0",
+  "description": "A bundle of Django apps and front-end tools to develop websites with Wagtail CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loparello/django-wagtail-pack.git"
+  },
+  "author": "Lorenzo Parenti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loparello/django-wagtail-pack/issues"
+  },
+  "homepage": "https://github.com/loparello/django-wagtail-pack#readme",
+  "devDependencies": {
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  }
+}
