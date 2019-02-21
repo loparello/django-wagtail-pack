@@ -63,7 +63,7 @@ MIDDLEWARE = [
     'wagtail.contrib.redirects.middleware.RedirectMiddleware',
 ]
 
-ROOT_URLCONF = 'wagtailpack.urls'
+ROOT_URLCONF = 'sitepack.urls'
 
 TEMPLATES = [
     {
@@ -84,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'wagtailpack.wsgi.application'
+WSGI_APPLICATION = 'sitepack.wsgi.application'
 
 
 # Password validation
